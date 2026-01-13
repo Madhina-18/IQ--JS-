@@ -1,9 +1,12 @@
+
 SET – 1  
 
 BL IN HTML : 
 
 1. What are the main aspects of a web application? 
 To build the frontend, backend, database, and infrastructure for a responsive   website. 
+
+IL IN HTML : 
 
  2. What is Frontend? 
 Frontend refers to everything the user sees and interacts with on a website. It is also called the UI (User Interface). 
@@ -15,4 +18,2741 @@ CSS for styling, and
 
 JavaScript  for adding functions and interactivity. 
 
-These three languages are known as the building blocks of every website and web application on the internet.
+These three languages are known as the building blocks of every website and web application on the internet. 
+
+ 
+
+BL IN CSS: 
+
+In Flexbox, what do justify-content and align-items do? 
+
+justify-content → Moves items left, center, or right 
+
+align-items → Moves items top, middle, or bottom 
+
+That’s all. 
+Just remember: 
+
+ justify-content = left/right movement 
+
+ align-items = up/down movement 
+
+IL IN CSS: 
+
+2.What is the Box Model in CSS? 
+
+The CSS Box Model explains how every element on a webpage is structured. It has four parts: 
+
+Margin: The space outside the element box. 
+
+Border: The line that surrounds the padding and content. 
+
+Padding: The space inside the box, around the content. 
+
+Content: The actual text, image, or information inside the element. 
+
+BL IN JS : 
+
+1.In JavaScript, what are variables? 
+
+ Variables are containers used to store values. 
+They hold information like numbers, text, or data so we can use it later in our program. 
+
+Like a box where you keep something. 
+
+You can store a name, number, or any value inside that box. 
+
+IL IN JS: 
+
+2. What is console.log? 
+
+ console.log is a tool in JavaScript that is used to print messages on the console. 
+It helps us check and debug our code by showing the output. 
+
+ 
+
+BL IN REACT : 
+
+1. What is React Framework? 
+
+React is a JavaScript framework (actually a library) used to build fast, interactive, and responsive user interfaces for websites and web apps. 
+It helps developers create reusable components and makes the UI update smoothly without refreshing the whole page. 
+
+IL IN REACT: 
+
+2. What is useState in React? 
+
+useState is a React hook used to create and manage values that can change in a component. 
+
+Super simple meaning: 
+  useState helps us store data and update it (like count, name, input value). 
+
+Example: 
+
+const [count, setCount] = useState(0); 
+
+Here, 
+
+count = current value 
+
+setCount = function to update the value 
+
+BL IN NODE JS: 
+
+1. What is Node.js? 
+
+Node.js is a JavaScript runtime that allows us to run JavaScript on the server side (not only in the browser). 
+
+Super simple meaning: 
+With Node.js, we can create backend applications using JavaScript. 
+It is fast, scalable, and used for building APIs and servers. 
+
+ 
+
+ 
+
+IL IN NODE JS: 
+
+2. What is NPM in Node.js? 
+
+NPM (Node Package Manager) is a tool used to install and manage packages (libraries) in Node.js projects. It helps us add extra features easily without writing everything from scratch. 
+
+ 
+
+BL IN EXPRESS JS: 
+
+1. What is Express.js? 
+
+Express.js is a Node.js framework used to create servers and APIs easily. 
+It helps us handle routes, requests, and responses in a simple and fast way. 
+
+ 
+
+ 
+
+IL IN EXPRESS JS : 
+
+2.What is a Route in Express.js? 
+
+A route is a path in a server that tells what response to send when a user visits a specific URL. 
+
+Example: 
+/home, /login, /users 
+
+ 
+
+BL IN MONGODB: 
+
+1.What are documents? 
+
+ Documents are data stored in NoSQL databases, like a small file that holds information in key–value form. 
+
+ 
+
+ 
+
+IL IN MONGODB: 
+
+2. What is a NoSQL database? 
+
+A NoSQL database is a database that stores data in a flexible way, not in tables like SQL. 
+It can store data as documents, key-value pairs, or collections, and it is fast and good for big applications. 
+
+Example: MongoDB is a NoSQL database. 
+
+ 
+
+BL IN REDUX: 
+
+1.What is Redux? 
+
+ Redux is a tool used in React to store and manage data in one place so every component can use it easily. 
+
+Super simple meaning: 
+Redux keeps all your app data in one big storage. 
+
+ 
+
+IL IN REDUX: 
+
+ 2.What is a Store in Redux? 
+
+ The Store is the place where all the app’s data is saved in Redux. 
+It acts like one central storage for the whole application. 
+
+ 
+
+BL IN GIT & GITHUB: 
+
+1.What is Git? 
+
+Git is a version control system. 
+
+ It helps you save your code, track changes, and go back to previous versions. 
+
+ 
+
+IL IN GIT & GITHUB: 
+
+2.What is GitHub? 
+
+GitHub is a website where you can store your Git projects online, share them, and work with others. 
+
+Super simple: 
+
+Git = tool for tracking code 
+
+GitHub = website to store that code online 
+
+ 
+
+BL IN API: 
+
+1. What is an API? 
+
+An API is a bridge that allows two applications to talk to each other. 
+
+ It helps send and receive data between frontend and backend. 
+
+Super simple: 
+
+  API = A way for apps to communicate. 
+
+ 
+
+IL IN API: 
+
+2. What is JSON? 
+
+JSON (JavaScript Object Notation) is a format used to store and send data. 
+It looks like JavaScript objects and is easy for both humans and computers to understand. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SET – 2 
+
+BL IN HTML: 
+
+1.What is a Browser? 
+
+A browser is a software application used to open, view, and run websites on the internet. 
+
+ 
+
+IL IN HTML: 
+
+2.What is the difference between a Web App and a Mobile App? 
+
+Web App: 
+
+A web app runs inside a browser using a URL (website link). 
+You don’t need to install it. 
+Example: WhatsApp Web, LinkedIn Website. 
+
+Mobile App: 
+
+A mobile app is an application installed on a mobile phone through the Play Store or App Store. 
+Example: WhatsApp app, LinkedIn app. 
+
+ 
+
+BL IN CSS; 
+
+1.What is Rendering? 
+
+Rendering is the process where the browser takes our code (HTML, CSS, JavaScript) and converts it into a viewable webpage that humans can see and interact with. 
+
+Super simple: 
+👉 Browser changes code → into a visible webpage = Rendering.    
+
+                                             
+
+IL IN CSS: 
+
+2.In CSS, what are Display Property, Block, Inline-Block, and Inline? 
+
+Block: 
+
+A block element takes the full width of the browser. 
+It always starts on a new line. 
+
+Inline-Block: 
+
+An inline-block element takes only the required width (content width), 
+but we can also set width and height for it. 
+It stays inline but behaves partly like a block. 
+
+Inline: 
+
+An inline element takes only the content width 
+and we cannot set width and height for it. 
+
+ 
+
+BL IN JS; 
+
+1. What are let, var, and const in JavaScript? 
+
+var: 
+
+Used to declare a variable, but it has old behavior and is not commonly used now. 
+
+let: 
+
+Used to declare a changeable variable. 
+You can update the value later. 
+
+const: 
+
+Used to declare a fixed variable. 
+You cannot change its value once it is set. 
+
+ 
+
+ 
+
+IL IN JS: 
+
+1.What is ES6? 
+
+ ES6 (ECMAScript 2015) is a new and improved version of JavaScript that introduced many useful features like let, const, arrow functions, classes, and more. 
+
+Super simple: 
+👉 ES6 = Modern JavaScript features. 
+
+ Super Simple Summary 
+
+let → changeable 
+
+const → fixed 
+
+Arrow functions → short functions 
+
+Template literals → backtick strings 
+
+Default parameters → backup values 
+
+Spread → expand arrays 
+
+Rest → collect values 
+
+Destructuring → easy value extraction 
+
+Classes → blueprint for objects 
+
+Modules → import/export 
+
+Promises → async handling 
+
+Async/await → easy promises 
+
+BL IN REACT: 
+
+1.How does React.js work? 
+
+A: React uses a Virtual DOM to update only the changed parts of the webpage. 
+This makes the UI fast, smooth, and efficient. 
+
+Super simple: 
+👉 React updates only what is needed, not the whole page. 
+
+ 
+
+ 
+
+IL IN REACT: 
+
+2.What is the difference between DOM and Virtual DOM? 
+
+DOM (Document Object Model): 
+
+The real structure of the webpage. 
+
+If anything changes, the whole page updates, which is slow. 
+
+Browser directly works with it. 
+
+Virtual DOM (VDOM): 
+
+A copy of the real DOM created by React. 
+
+Updates happen faster because only the changed parts are updated, not the whole page. 
+
+React compares VDOM with DOM and updates only what is needed. 
+
+ 
+
+Super Simple: 
+
+DOM = real page 
+
+VDOM = fast copy used by React 
+
+DOM updates slowly 
+
+VDOM updates fast 
+
+ 
+
+BL IN NODE JS: 
+
+1.Difference between package.json and package-lock.json 
+
+package. Json:? 
+
+It contains the project details and the list of packages you installed. 
+
+It shows only the main package versions you requested. 
+
+Used to install packages. 
+
+Super simple: 
+👉 package.json = “What packages the project needs.” 
+
+ 
+
+package-lock.json: 
+
+It stores the exact versions of every package and its sub-packages. 
+
+It ensures the project installs the same versions on every system. 
+
+Automatically created. 
+
+Super simple: 
+👉 package-lock.json = “Exact versions to keep everything same.” 
+
+ 
+
+IL IN  NODE JS: 
+
+2. What is the Event Loop and how does it work? 
+
+The Event Loop is a system in Node.js that helps JavaScript run tasks without waiting. 
+It allows JavaScript to do multiple things at the same time (asynchronous). 
+
+How it works (Very Simple): 
+
+JavaScript runs one line at a time (single thread). 
+
+If a slow task comes (like API call, setTimeout), it is given to the Event Loop. 
+
+The Event Loop waits for the task to finish in the background. 
+
+When the task is done, the Event Loop brings the result back to JavaScript. 
+
+Super Simple Explanation: 
+
+👉 Event Loop = "I will wait for slow tasks. You continue your work, I’ll tell you when it’s done. 
+
+BL IN EXPRESS JS; 
+
+1.Why do we use Express.js? 
+
+We use Express.js to create servers and APIs easily in Node.js. 
+
+Super simple: 
+👉 Express makes backend work faster, easier, and cleaner. 
+
+ 
+
+IL IN EXPRESS JS: 
+
+1.WRITE A Hello World” Express.js application? 
+
+const express = require("express"); 
+
+const app = express(); 
+
+app.get("/", (req, res) => { 
+
+  res.send("Hello World"); 
+
+});  
+
+app.listen(3000, () => { 
+
+  console.log("Server is running on port 3000"); 
+
+}); 
+
+Super simple steps: 
+
+ Create app.js 
+
+Install express → npm install express 
+
+Run → node app.js 
+
+Open browser → http://localhost:3000 
+
+You will see Hello World! 
+
+BL IN MONGODB; 
+
+1. In MongoDB, what is a Schema? 
+
+ A Schema is a structure or blueprint that tells how data should look inside a collection. 
+
+Super simple: 
+👉 Schema = Rules for your data (what fields, what type). 
+
+Example: 
+If you create a Student Schema, you decide: 
+
+name: String 
+
+age: Number 
+
+grade: String 
+
+Schema makes sure data is organized and correct. 
+
+IL IN MONGODB: 
+
+2.In MongoDB, what are the supported data types? 
+
+Main MongoDB Data Types (Simple): 
+
+String – Text values 
+
+Number – Numeric values (int, double) 
+
+Boolean – true / false 
+
+Array – List of values 
+
+Object – Another document inside a document 
+
+Null – Empty value 
+
+Date – Date and time 
+
+ObjectId – Unique ID created by MongoDB 
+
+Binary Data – Files, images, etc. 
+
+Decimal128 – Big decimal numbers 
+
+Timestamp – MongoDB internal time format 
+
+Super simple summary: 
+
+👉 Text, Numbers, True/False, Lists, Objects, Date, Null, IDs. 
+
+ 
+
+BL IN REDUX; 
+
+1.What is an Action in Redux? 
+
+ An Action is a simple JavaScript object that tells Redux what change you want to make in the store. 
+
+Super simple: 
+👉 Action = Message sent to Redux saying “Do this change.” 
+
+Example action: 
+
+{ type: "INCREMENT" } 
+
+ 
+
+ 
+
+IL IN REDUX: 
+
+2.What is a Reducer in Redux? 
+
+ A Reducer is a function that receives the action and updates the store data based on that action. 
+
+Super simple: 
+👉 Reducer = Function that decides how the data should change. 
+
+ 
+
+BL IN GIT & GITHUB: 
+
+1. What does git init do? 
+
+git init creates a new Git repository in your project folder. 
+
+IL IN GIT & GITHUB: 
+
+2. What is the use of git branch? 
+
+ git branch is used to create or manage separate versions of your project. 
+
+BL IN API: 
+
+ 1. What is Context API?  
+
+Context API is a feature in React used to share data between components without using props. 
+
+Normally we pass data from parent → child → grandchild using props, which is difficult. 
+Context API removes this problem and lets us share data directly anywhere in the app. 
+
+Super Simple Example: 
+
+Without Context → You pass the data step-by-step (props drilling). 
+
+With Context → You give the data in one place → all components can use it. 
+
+One-line answer: 
+
+Context API is used to avoid props drilling and share data easily across components. 
+
+IL IN API: 
+
+How to Make an API Call in React ? 
+
+Step-by-step (Very Simple): 
+
+Create a state → to store the API data. 
+
+Use useEffect() → so API will call one time when page loads. 
+
+Use fetch() or axios → to get the data from the API. 
+
+Save the data inside the state. 
+
+Show the data in the UI. 
+
+ 
+
+ Example: API Call Using fetch() 
+
+import React, { useEffect, useState } from "react"; 
+ 
+function App() { 
+  const [users, setUsers] = useState([]); 
+ 
+  useEffect(() => { 
+    fetch("https://jsonplaceholder.typicode.com/users") 
+      .then((res) => res.json()) 
+      .then((data) => setUsers(data)) 
+      .catch((err) => console.log(err)); 
+  }, []); 
+ 
+  return ( 
+    <div> 
+      <h2>Users List</h2> 
+      {users.map((user) => ( 
+        <p key={user.id}>{user.name}</p> 
+      ))} 
+    </div> 
+  ); 
+} 
+ 
+export default App; 
+ 
+
+Simple Meaning: 
+
+useEffect() → API call happens one time when page opens. 
+
+fetch() → calls the API. 
+
+setUsers() → stores the data. 
+
+map() → displays the data. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SET – 3  
+
+BL IN HTML :  
+
+1. What is <!DOCTYPE html> in HTML5? 
+
+<!DOCTYPE html> is a special line used at the top of an HTML file. 
+It tells the browser that the webpage is written in HTML5. 
+
+Super simple: 
+👉 It tells the browser: “Hey, this is an HTML5 page.” 
+
+ 
+
+IL IN HTML: 
+
+2. What are Browser Developer Tools?  
+
+Browser developer tools are built-in tools inside the browser (like Chrome) that help developers check, debug, and fix the website. 
+
+You can see: 
+
+HTML 
+
+CSS 
+
+Console logs 
+
+Errors 
+
+Network calls 
+
+Responsive view 
+
+Super simple: 
+👉 Developer tools help you see how your website is working behind the screen. 
+
+ 
+
+BL IN CSS: 
+
+1. What is :hover in CSS? 
+
+Ans: :hover is a CSS effect that happens when you move your mouse over an element. 
+
+Super simple: 
+👉 Hover = Style changes when you place the mouse on it. 
+
+ 
+
+IL IN CSS: 
+
+2. What is BEM in CSS? 
+
+Ans: 
+
+BEM means Block, Element, Modifier. 
+It is a naming method used to write clean, structured, and easy-to-read CSS class names. 
+
+Super simple: 
+👉 BEM helps you name your CSS classes neatly so your code looks clean and organized. 
+
+ 
+
+ 
+
+Bl IN JS: 
+
+1. What is a parameter in JavaScript? 
+
+A parameter is the name we give inside a function to receive a value. 
+
+Super simple: 
+👉 Parameter = a placeholder inside a function to hold a value. 
+
+ 
+
+IL IN JS: 
+
+2. What is the return keyword in JavaScript? 
+
+return is used inside a function to send a value back. 
+
+Super simple: 
+👉 return = give back a result from the function. 
+
+function add(a, b) { 
+
+  return a + b;   // sends back the answer 
+
+} 
+
+console.log(add(2, 3)); // 5 
+
+ 
+
+BL IN REACT: 
+
+1.What is CodeSandbox in React? 
+
+CodeSandbox is an online coding website where you can create, run, and test React projects without installing anything. 
+
+Super simple: 
+👉 CodeSandbox = Online place to practice React easily. 
+
+ 
+
+IL IN REACT: 
+
+2.What is import and export in React? 
+
+export → Used to send a component, function, or variable from one file. 
+
+import → Used to use that component, function, or variable in another file. 
+
+Super simple: 
+👉 export = give it out (kudukurom) 
+👉 import = bring it in (eduthukurom) 
+
+ 
+
+BL IN NODE JS: 
+
+1. What is Server and Client? 
+
+Client: The device or browser that requests data or services. 
+Example: Your Chrome browser. 
+
+Server: The computer that sends data or services when requested by the client. 
+Example: A website server sending a page to your browser. 
+
+Super simple: 
+👉 Client = asks for data 
+👉 Server = gives the data 
+
+ 
+
+IL IN NODE JS : 
+
+1.Why do we use Node.js? 
+
+We use Node.js to run JavaScript on the server and build fast backend applications. 
+
+Super simple reasons: 
+
+JavaScript on server → same language for frontend and backend. 
+
+Fast and scalable → handles many users at once. 
+
+Build APIs → easily send/receive data for websites or apps. 
+
+Large community & packages → use ready-made tools (NPM). 
+
+One-line: 
+👉 Node.js lets us build fast servers and backend using JavaScript. 
+
+ 
+
+BL IN Express JS: 
+
+1. Who created Express.js? 
+
+Express.js was created by TJ Holowaychuk in 2010. 
+
+Super simple: 
+👉 TJ Holowaychuk made Express.js to build Node.js servers easily. 
+
+IL IN EXRESS JS: 
+
+2. Difference between Node.js and Express.js? 
+
+Node.js 
+
+Express.js 
+
+Node.js is a JavaScript runtime that runs JS on the server. 
+
+Express.js is a framework built on Node.js to make server creation easier. 
+
+Can handle basic server tasks. 
+
+Provides extra features like routing, middleware, APIs. 
+
+Core platform. 
+
+Built on top of Node.js. 
+
+Super simple: 
+👉 Node.js = engine that runs JS on server 
+👉 Express.js = tool/framework to build servers faster on Node.js 
+
+ 
+
+BL IN MONGODB: 
+
+1. What is Mongoose? 
+
+ Mongoose is a Node.js library that helps you work with MongoDB easily. 
+
+It lets you: 
+
+Create schemas 
+
+Validate data 
+
+Perform CRUD operations 
+
+Super simple: 
+👉 Mongoose = Easy tool to use MongoDB in Node.js. 
+
+ 
+
+ 
+
+IL IN MONGODB: 
+
+ 
+
+2.What is CRUD in MongoDB? 
+
+ CRUD stands for Create, Read, Update, Delete — the four main operations you can do on MongoDB data. 
+
+Simple meaning in MongoDB: 
+
+Create → Add new documents 
+
+Read → Get or view documents 
+
+Update → Change existing documents 
+
+Delete → Remove documents 
+
+Super simple: 
+👉 CRUD = Do anything with your database data (Add, See, Change, Remove). 
+
+ 
+
+BL IN REDUX: 
+
+1.Why do we use Redux? 
+
+Redux is used to manage state (data) in a React app in a central place. 
+
+Super simple reasons: 
+
+Share data between multiple components easily. 
+
+Avoid props drilling. 
+
+Make state predictable and easier to debug. 
+
+Super simple: 
+👉 Redux = One place to store and manage all app data. 
+
+ 
+
+IL IN REDUX: 
+
+2.What is a Store in Redux? 
+
+ Store is a single place where all the app’s state (data) is kept in Redux. 
+
+Super simple: 
+👉 Store = The “database” of your app in Redux. 
+
+ 
+
+BL IN GIT AND GITHUB: 
+
+1. What does git branch -a do? 
+
+ git branch -a shows all branches in your Git repository, including local and remote branches. 
+
+Super simple: 
+👉 See all branches available in your project. 
+
+IL IN GIT AND GITHUB: 
+
+2. What does git remote add origin do? 
+
+ git remote add origin <url> links your local Git repository to a remote repository (like GitHub). 
+
+Super simple: 
+👉 It tells Git: “This is the online repository for my project.” 
+
+ 
+
+ 
+
+ 
+
+BL IN API: 
+
+1.What is a Promise in JavaScript? 
+
+ A Promise is something that will give a result later. 
+
+Super simple: 
+👉 Promise = “I will give you the answer later.” 
+
+Example: 
+
+let promise = fetch("https://api.example.com/data"); 
+ 
+
+It will give data later when ready. 
+
+IL IN API: 
+
+2. What is Axios? 
+
+Axios is a JavaScript library used to make HTTP requests (like calling an API) from the browser or Node.js. 
+
+Super simple: 
+👉 Axios = Tool to get or send data from a server easily. 
+
+Example: 
+
+import axios from "axios"; 
+ 
+axios.get("https://jsonplaceholder.typicode.com/users") 
+  .then(response => console.log(response.data)) 
+  .catch(error => console.log(error)); 
+
+ 
+
+ 
+
+ 
+
+SET 4  
+
+ 
+
+BL IN HTML 
+
+What is the purpose of the <!DOCTYPE> declaration? 
+
+      <!DOCTYPE> tells the browser to use the latest HTML version (HTML5) to display the page correctly. 
+
+Super simple: 
+👉 It helps the browser understand the page properly. 
+
+Example: 
+
+<!DOCTYPE html> 
+
+ 
+
+ 
+IL IN HTML 
+
+  2.What is the difference between <section> and <div>? 
+
+<section> → Has meaning. Used for a specific topic or section of a page. 
+
+<div> → Has no meaning. Used only for grouping and styling. 
+
+Super simple: 
+👉 section = meaningful block 
+👉 div = normal box 
+
+BL IN CSS 
+
+1.What does display: inline-block do? 
+
+Display: inline-block lets an element stay in one line and also allows width and height. 
+
+Super simple: 
+👉 Inline = same line 
+👉 Block = can set width & height 
+
+Inline-block = both together. 
+
+Used for: buttons, menus, badges, small boxes. 
+
+ 
+
+IL IN CSS 
+
+1.What are pseudo-elements? 
+
+Pseudo-elements are fake/virtual elements created in CSS using ::before and ::after. 
+
+They let you add extra content or decoration without writing extra HTML. 
+
+Super simple: 
+👉 Pseudo-elements = extra style content added using CSS only. 
+
+BL IN JS  
+
+1.What is the difference between null and undefined? 
+
+undefined → Variable is declared but not given any value. 
+
+null → You intentionally give “empty value” to a variable. 
+
+Super simple: 
+👉 undefined = not given 
+👉 null = given empty value 
+
+Example: 
+
+let a;       // undefined 
+let b = null; // null 
+
+ 
+
+IL IN JS 
+
+2. What is event bubbling? 
+
+Event bubbling means an event starts from the inner element and moves up to the outer parent elements. 
+
+Super simple: 
+👉 Click inside → goes upward to parents. 
+
+You can stop it using: 
+
+event.stopPropagation(); 
+
+ 
+
+ 
+
+ 
+
+BL IN REACT  
+
+ 
+
+1.What are React Hooks? 
+
+React Hooks are special functions (like useState, useEffect) that let functional components use features like state and lifecycle. 
+
+Super simple: 
+👉 Hooks = add power/features to functional components. 
+
+They also reduce the need for class components. 
+
+ 
+
+IL IN REACT 
+
+2.What is Context in React? 
+
+Context is a way to share data globally in React without sending props to every component. 
+
+Super simple: 
+👉 Context = common storage for data like theme, login info, language. 
+👉 No need for props drilling. 
+
+It works using: 
+
+Provider → gives the data 
+
+Consumer / useContext → uses the data 
+
+ 
+
+ 
+
+ 
+
+ 
+
+BL IN NODE JS 
+
+What is the purpose of NPM (Node Package Manager)? 
+
+NPM is used to install and manage packages/libraries in a Node or React project. 
+
+Super simple: 
+👉 NPM = App Store for code packages. 
+👉 It also manages versions and project scripts. 
+
+It comes automatically with Node.js. 
+
+ 
+
+IL IN NODE JS  
+
+What is the difference between synchronous and asynchronous functions in Node.js? 
+
+Synchronous (Sync) → Runs one by one. Next task waits until the current one finishes. 
+
+Asynchronous (Async) → Doesn’t wait. Other tasks continue while one task is running. 
+
+Super simple: 
+👉 Sync = wait 
+👉 Async = no wait 
+
+Async helps Node.js handle many requests at the same time. 
+
+ 
+
+BL IN EXPRESS JS 
+
+What is an Express route handler? 
+
+An Express route handler is a function that runs when a client sends a request to a specific URL and HTTP method. 
+
+Super simple: 
+👉 Route handler = “When this URL is hit, do this work.” 
+
+Example: 
+
+app.get("/home", (req, res) => { 
+  res.send("Welcome Home"); 
+}); 
+
+ 
+
+IL IN EXPRESS JS  
+
+2.What is an Express route handler? 
+
+An Express route handler is a function that gets executed when a user sends a request to a specific URL with a specific HTTP method. 
+
+Super simple: 
+👉 Route handler = “If someone visits this URL, do this action.” 
+
+ 
+
+BL IN MONGODB 
+
+ 
+1. What is a MongoDB document?  
+
+A document is a JSON-like record stored in a collection. It contains key-value pairs and flexible structures. Each document includes an _id field. 
+
+ 
+
+ 
+
+IL IN MONGODB 
+
+2. What are MongoDB operators? 
+MongoDB operators are special keywords (like $set, $inc, $push) used to query, filter, and update data inside documents. 
+They help you make partial updates without replacing the entire document. 
+These operators make MongoDB queries more powerful, flexible, and expressive. 
+
+ 
+
+BL IN REDUX  
+
+ 
+
+1. What is the reducer function in Redux? 
+A reducer is a function that updates the state based on the action. 
+It takes the old state, reads the action, and returns a new state. 
+It never changes the old state directly. 
+
+ 
+
+IL IN REDUX 
+
+2. How does Redux ensure immutability? 
+Redux ensures that state never changes directly. 
+Whenever you update state, Redux creates a new state object instead of modifying the old one. 
+
+Super simple: 
+👉 Old state = unchanged, new state = updated 
+
+ 
+
+ 
+
+BL IN API 
+
+1. What is an HTTP method? 
+An HTTP method is a type of action a client wants to do on data. 
+
+Super simple: 
+
+GET → get/read data 
+
+POST → create new data 
+
+PUT → update existing data 
+
+DELETE → remove data 
+
+👉 HTTP method = tells the server what to do with the data. 
+
+ 
+
+IL IN API 
+
+2.What is API versioning? 
+
+Ans: 
+API versioning is a way to create multiple versions of an API so old clients don’t break when new changes are added. 
+
+Super simple: 
+👉 Versioning = different versions of the same API. 
+
+BL IN GIT AND GITHUB 
+
+What does git add do? 
+
+ 
+git add prepares your changes to be saved in Git. 
+It stages files so they are ready to be committed. 
+
+      Super simple: 
+       👉 git add = “pick the files I want to save next.” 
+
+  
+
+IL IN GIT AND GITHUB 
+
+What is Git branching strategy? 
+A Git branching strategy is a plan for how to use branches in a project. 
+It helps organize features, releases, and fixes so the team can work smoothly. 
+
+Super simple: 
+👉 Branching strategy = “How we manage different parts of code in branches.” 
+
+ 
+
+SET 5  
+
+BL IN HTML : 
+
+1. What are HTML tables? 
+
+HTML tables are used to show information in rows and columns on a webpage. 
+
+Like how you see: 
+
+Timetable 
+
+Mark sheet 
+
+Price list 
+
+Tables make data neat and easy to read. 
+
+IL IN HTML : 
+
+2. What are HTML forms? 
+
+ HTML forms are used to collect information from users on a webpage. They include fields like text boxes, buttons, checkboxes, and dropdowns. 
+
+Example uses: login forms, signup forms, contact forms, search bars, etc. 
+
+BL IN CSS: 
+
+1. What is a CSS Framework? 
+
+A CSS framework is a ready-made design toolkit that helps style websites faster using pre-built classes and components. 
+It saves time and gives clean, responsive layouts without writing CSS from scratch. 
+
+IL IN CSS: 
+
+2. What is an <article> tag in HTML? 
+The <article> tag is used for independent content like blogs, news posts, or stories. 
+It represents a complete piece of information that can stand alone. 
+
+Super simple: 
+👉 <article> = a self-contained content block like a blog post. 
+
+ 
+
+BL IN JS : 
+
+1. What is JS DOM? 
+DOM is a system that lets JavaScript control the webpage. 
+
+Super simple: 
+👉 DOM = JavaScript can see and change HTML. 
+
+IL IN JS: 
+
+2. What is textContent in JavaScript? 
+TextContent is used to get or change the text inside an HTML element. 
+
+Super simple: 
+👉 textContent = read or write text in HTML. 
+
+Example: 
+
+element.textContent = "Hello!"; 
+
+ 
+
+BL IN REACT : 
+
+1.What are Fragments in React? 
+Fragments let you return multiple elements without using an extra wrapping div. 👉 Fragment = group elements without adding extra HTML. 
+
+ 
+
+ 
+
+ 
+
+IL IN REACT: 
+
+2.What are Props in React? 
+Props (short for properties) are used to pass data from a parent component to a child component. 
+
+Super simple: 
+👉 Props = information you send to a child component. 
+
+ 
+
+BL IN NODE JS: 
+
+1. How do you run a Node.js program? 
+
+ You use the node command in the terminal to run a .js file. 
+
+Super simple: 
+👉 node = tells the computer to run your JavaScript file with Node.js ex: node app.js 
+
+ 
+
+IL IN NODE JS: 
+
+2. What is Nodemon?  
+
+Nodemon automatically restarts your Node.js server whenever you save changes. 
+
+Super simple: 
+👉 Without nodemon — you must stop and run the server again manually. 
+👉 With nodemon — it restarts automatically. 
+
+(nodemon app.js) - It saves time and makes development easier. 
+
+BL IN EXPRESS JS: 
+
+1. What is Middleware in Express?  
+
+Middleware is a function that runs between the request and response. 
+
+Super simple: 
+👉 Middleware = “Do something before sending the final response.” 
+
+Example uses: 
+
+Logging 
+
+Checking login 
+
+Handling errors 
+
+Reading body data 
+
+ 
+
+IL IN EXPRESS JS : 
+
+2. What is Express Router?  
+
+Express Router helps split routes into different files so the project is cleaner and easier to manage. 
+
+Super simple: 
+👉 Router = “Small route file used to organize big projects.” 
+
+It avoids writing all routes in one file. 
+
+ 
+
+BL IN MONGODB: 
+
+1.What is MongoDB Collection? (In Simple) 
+A collection is like a folder that stores multiple documents in MongoDB. 
+
+Super simple: 
+👉 Collection = “Group of documents.” 
+
+Example: 
+
+Users collection → stores user documents 
+
+Products collection → stores product documents 
+
+IL IN MONGODB: 
+
+2. What is MongoDB Compass? (In Simple) 
+
+ 
+MongoDB Compass is a GUI tool used to see, edit, and manage MongoDB data easily. 
+
+Super simple: 
+👉 Compass = “Visual tool to work with MongoDB without writing queries.” 
+
+Example uses: 
+✔️ View collections 
+✔️ Add or delete documents 
+✔️ Run queries 
+✔️ Check database structure 
+
+ 
+
+BL IN REDUX: 
+
+1. What is Redux Store? (In Simple) 
+
+ 
+The Redux store is a place where all the app data (state) is stored in one location. 
+
+Super simple: 
+👉 Store = “Big container that holds all app data.” 
+
+It lets every component access the same data easily 
+
+IL IN REDUX: 
+
+2. What is Redux Action?  
+An action is a message sent to the store to tell what change should happen. 
+
+Super simple: 
+👉 Action = “We want to change the data, so we send a message.” 
+
+Example: 
+
+INCREMENT 
+
+ADD_USER 
+
+LOGOUT 
+
+Actions describe what to do, not how to do it. 
+
+BL IN GIT & GITHUB: 
+
+1.What is Git Clone?  
+Git clone copies a project from GitHub to your computer. 
+
+Super simple: 
+👉 clone = “Download a GitHub project into your laptop.” 
+
+Example command: 
+
+git clone repo-link 
+ 
+
+It brings: 
+✔️ code 
+✔️ history 
+✔️ branches 
+
+all to your system. 
+
+IL IN GIT & GITHUB: 
+
+2. What is Git Pull?  
+Git pull brings the latest changes from GitHub into your local project. 
+
+Super simple: 
+👉 pull = Update my project with new changes from GitHub. 
+
+BL IN API:  
+
+1.What is an API?  
+
+API is a system that allows two software applications to talk to each other. 
+
+Super simple: 
+👉 API = “A bridge that connects apps and shares data.” 
+
+Example: 
+When a weather app shows today’s temperature, it gets data from a weather API. 
+
+IL IN API: 
+
+ 
+
+2. What is REST API?  
+
+A REST API is a type of API that uses URLs and HTTP methods (GET, POST, PUT, DELETE) to share data. 
+
+Super simple: 
+👉 REST API = “API that sends and receives data using web links.” 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   SET 6  
+
+BL IN HTML : 
+
+1 What is the <link> tag in HTML? (In Simple) 
+The <link> tag connects external files (like CSS) to the HTML page. 
+
+Super simple: 
+👉 <link> = “Attach external styles or resources.” (<link rel="stylesheet" href="style.css">) 
+
+ 
+
+IL IN HTML : 
+
+2. What is the <img> tag in HTML? (In Simple) 
+The <img> tag is used to display images on a webpage. 
+
+Super simple: 
+👉 <img> = “Show an image.” 
+
+It needs a src attribute to locate the image. 
+
+(<img src="photo.jpg" alt="My Image"> 
+
+) 
+
+BL IN CSS: 
+
+1. What is a CSS Selector? 
+A CSS selector chooses which HTML element to style. 
+
+Super simple: 
+👉 Selector = “Who to style?” 
+
+Example selectors: 
+✔️ element selector → p {} 
+✔️ class selector → .box {} 
+✔️ id selector → #title {} 
+
+IL IN CSS: 
+
+2. What is the difference between relative, absolute, and fixed position in CSS? 
+
+relative → element moves relative to its normal position 
+
+absolute → element moves relative to its nearest positioned parent 
+
+fixed → element stays fixed on the screen even when scrolling 
+
+Super simple: 
+👉 relative = move a bit from where it is 
+👉 absolute = place anywhere inside parent 
+👉 fixed = stay visible always 
+
+BL IN JS : 
+
+1. What is a JavaScript Variable?  
+
+A variable is a container that stores data for later use. 
+
+Super simple: 
+👉 Variable = “A box to keep values.” 
+
+IL IN JS: 
+
+2. What is console.log in JavaScript? 
+console.log is used to show messages or values in the browser’s console. 
+
+Super simple: 
+👉 console.log = “Print something to see it.” 
+
+BL IN REACT : 
+
+1. What is a React Component? 
+
+ 
+A React component is a reusable piece of UI that can display content or handle logic. 
+
+Super simple: 
+👉 Component = “Building block of a React app.” 
+
+Types of components: 
+✔️ Functional Component → simple function 
+✔️ Class Component → ES6 class 
+
+IL IN REACT: 
+
+2. What is React State?  
+State is a way to store data inside a component that can change over time. 
+
+Super simple: 
+👉 State = “Data that the component remembers and can change.” 
+
+ 
+
+ 
+
+ 
+
+ 
+
+BL IN NODE JS: 
+
+1. What is npm in Node.js? 
+NPM (Node Package Manager) is used to install and manage libraries for Node.js projects. 
+
+Super simple: 
+👉 NPM = “Tool to add ready-made code to your project.” 
+
+IL IN NODE JS: 
+
+2. What is the require() function in Node.js?  
+require() is used to import modules or libraries into your Node.js file. 
+
+Super simple: 
+👉 require() = “Bring code from another file or library to use here.” 
+
+BL IN EXPRESS JS: 
+
+1. What is Express.js?  
+
+ 
+Express.js is a Node.js framework used to build web servers and APIs easily. 
+
+Super simple: 
+👉 Express.js = “Tool to make backend/server faster and simpler.” 
+
+It helps with: 
+✔️ Routing (handling URLs) 
+✔️ Middleware (do things before sending response) 
+✔️ Handling requests and responses 
+
+IL IN EXPRESS JS : 
+
+2. What is Middleware in Express.js?  
+Middleware is a function that runs between receiving a request and sending a response. 
+
+Super simple: 
+👉 Middleware = “Do something in the middle before responding.” 
+
+Example uses: 
+✔️ Logging requests 
+✔️ Checking user login 
+✔️ Parsing data 
+✔️ Handling errors 
+
+BL IN MONGO DB : 
+
+1.What is the difference between MongoDB and RDBMS? 
+
+MongoDB (NoSQL) 
+
+Stores data in documents (JSON format) 
+
+No fixed structure 
+
+Easy to scale 
+
+Flexible for big data 
+
+Super simple: 
+👉 MongoDB = “Free structure, document style.” 
+
+ 
+
+✅ RDBMS (SQL Databases) 
+
+Stores data in tables (rows & columns) 
+
+Fixed structure 
+
+Uses SQL language 
+
+Good for complex relations 
+
+Super simple: 
+👉 RDBMS = “Table structure, strict format.” 
+
+ 
+
+IL IN MONGO DB: 
+
+What are the features of MongoDB? (In Simple) 
+
+✅ 1. Document based 
+
+Stores data in flexible JSON-like documents. 
+
+✅ 2. No fixed schema 
+
+New fields can be added anytime. 
+
+✅ 3. High performance 
+
+Fast read/write speed. 
+
+✅ 4. Easy to scale 
+
+Handles large data easily. 
+
+✅ 5. Supports rich queries 
+
+Use filters, sorting, pagination, search. 
+
+Super Simple Summary: 
+
+👉 MongoDB = “Flexible, fast, big data friendly database.” 
+
+ 
+
+BL IN REDUX : 
+
+What is Dispatch in Redux? (In Simple) 
+Dispatch is the function used to send actions to the store. 
+
+Super simple: 
+👉 Dispatch = “Send the action to update the data.” 
+
+Example idea: 
+You click a button → dispatch sends action → store updates data. 
+
+IL IN REDUX: 
+
+2. What is a Selector in Redux? (In Simple) 
+A selector is a function used to get data from the Redux store. 
+
+Super simple: 
+👉 Selector = “Take only the data you need from the store.” 
+
+Example idea: 
+Store has a lot of data → selector picks only one part of it. 
+
+ 
+
+BL IN GIT AND GITHUB : 
+
+1.What does git config --global do? (In Simple) 
+git config --global sets Git settings for your entire system. 
+
+Super simple: 
+👉 It tells Git who you are for all projects. 
+
+ 
+
+ 
+
+IL IN GIT & GITHUB: 
+
+2. What does git status do? (In Simple) 
+git status shows the current state of your project. 
+
+Super simple: 
+👉 It tells you what is changed, staged, or not saved yet. 
+
+It shows: 
+✔️ modified files 
+✔️ staged files 
+✔️ untracked files 
+
+ 
+
+BL IN API:   
+
+1.What is an API Endpoint? (In Simple) 
+  
+
+An API endpoint is a specific URL where an API receives requests and sends responses. 
+
+Super simple: 
+👉 Endpoint = “Exact address to get or send data.” 
+
+Example: 
+
+/users 
+/products 
+ 
+
+Each endpoint performs a specific action like getting or adding data. 
+
+ 
+
+IL IN API: 
+
+2.What is an HTTP Status Code? (In Simple) 
+
+ 
+An HTTP status code is a number sent by the server to tell whether the request was successful or not. 
+
+Super simple: 
+👉 Status code = “Result of your request.” 
+
+Common examples: 
+
+200 → Success 
+
+404 → Not Found 
+
+500 → Server Error 
+
+ 
+
+ 
+
+    
+
+ 
+
+ 
+
+SET 7 
+
+BL IN HTML : 
+
+1.What are semantic elements in HTML5? 
+
+Answer: 
+Semantic elements clearly describe their meaning to both browser and developer. 
+Examples: 
+
+<header> 
+
+<nav> 
+
+<section> 
+
+<article> 
+
+<footer> 
+
+ 
+
+ 
+
+IL IN HTML : 
+
+2.Difference between <div> and semantic tags? 
+
+Answer: 
+
+<div> → Non-semantic (no meaning) 
+
+Semantic tags → Provide meaning and improve SEO & readability 
+
+ 
+
+BL IN CSS: 
+
+1.The difference between display:none vs visibility:hidden? 
+
+none removes element;  
+
+hidden hides but keeps space. 
+
+IL IN CSS: 
+
+2 What is an Opacity in css? 
+Controls transparency. 
+
+BL IN JS : 
+
+Difference between == and ===? 
+== checks value, === checks value and type. 
+
+IL IN JS: 
+
+In js What is NaN Abbreviation ? 
+
+Not a Number. 
+
+ 
+
+BL IN REACT : 
+
+1.Who developed React? 
+Facebook (Meta). 
+
+IL IN REACT: 
+
+2. What is create-react-app? 
+Tool to create React app quickly. 
+
+BL IN NODE JS: 
+
+What is callback? 
+Function passed as argument. 
+
+IL IN NODE JS: 
+
+What is middleware? 
+Function that runs between request & response. 
+
+ 
+
+BL IN EXPRESS JS: 
+
+1.What is app in Express? 
+Main Express application object. 
+
+IL IN EXPRESS JS : 
+
+2 . In Express What is port? 
+Server listening point. 
+
+ 
+
+BL IN MONGODB: 
+
+What is _id? 
+Unique identifier for each document. 
+
+IL IN MONGODB: 
+
+2.How to Delete a document ? 
+
+Db.users.deleteOne({name:”Madhi”}); 
+
+ 
+
+BL IN REDUX : 
+
+1. What is useSelector in Redux ? 
+
+What is useSelector? 
+Reads data from Redux store. 
+
+useSelector(state => state.user) 
+
+IL IN REDUX: 
+
+2.What is an Action Creator ? 
+
+What is an Action Creator? 
+A function that returns an action. 
+
+ 
+
+BL IN GIT AND GITHUB : 
+
+  1. What is version control? 
+Tracks file changes. 
+
+IL IN GIT & GITHUB: 
+
+2.What is clone? 
+Copies repo to local system. 
+
+ 
+
+ 
+
+BL IN API:    
+
+1. What is Axios? (In Simple) 
+Axios is a library in JavaScript used to make API calls easier. 
+
+               Super simple: 
+👉 Axios = “Tool to get or send data from APIs easily.” 
+
+IL IN API: 
+
+2.What is a Promise in JavaScript?  
+
+A Promise is a way to handle asynchronous operations, like API calls. 
+
+Super simple: 
+👉 Promise = “I will give you the result later.” 
+
+States of a promise: 
+✔️ Pending → not finished yet 
+✔️ Resolved → finished successfully 
+✔️ Rejected → finished with error 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SET - 8 
+
+ 
+
+BL IN HTML :   
+
+1.Difference between <div> and semantic tags? 
+
+Answer: 
+
+<div> → Non-semantic (no meaning) 
+
+Semantic tags → Provide meaning and improve SEO & readability 
+
+ 
+
+IL IN HTML: 
+
+2. What are block-level elements? 
+
+Answer: 
+Elements that start on a new line. 
+Examples: <div>, <p>, <section> 
+
+ 
+
+ 
+
+BL IN CSS: 
+
+ 1.What is overflow? 
+Controls content overflow. 
+
+ 
+
+IL IN CSS: 
+
+2.Fixed position? 
+Stays fixed on screen. 
+
+ 
+
+Bl IN JS: 
+
+1.What is push()? 
+
+push() adds one or more elements to the end of an array. 
+
+Example : 
+
+let fruits = ["apple", "banana"]; 
+
+fruits.push("orange"); 
+
+  
+
+console.log(fruits); 
+
+// Output: ["apple", "banana", "orange"] 
+
+ 
+
+IL IN JS: 
+
+What is pop()? 
+
+pop() removes the last element from an array. 
+
+ 
+
+Example  
+
+let fruits = ["apple", "banana", "orange"]; 
+
+fruits.pop(); 
+
+  
+
+console.log(fruits); 
+
+// Output: ["apple", "banana"] 
+
+ 
+
+BL IN REACT: 
+
+1.What is virtual DOM? 
+Lightweight copy of real DOM. 
+
+ 
+
+IL IN REACT: 
+
+2.What is useRef? 
+Access DOM or store mutable values. 
+
+ 
+
+BL IN NODE JS: 
+
+1. What is environment variable? 
+
+Stores config values. 
+
+ 
+
+IL IN NODE JS : 
+
+2.What is deployment? 
+Publish app online. 
+
+ 
+
+BL IN Express JS: 
+
+Why use Express.js? 
+
+Easy routing system 
+
+Supports middleware 
+
+Faster development 
+
+Large community support 
+
+ 
+
+IL IN EXRESS JS: 
+
+   2 What is middleware in Express.js? 
+
+Function between request and response 
+
+Can modify request object 
+
+Can send response 
+
+Can call next() 
+
+ BL IN MONGODB:  
+
+1.What is BSON? 
+
+Binary JSON format 
+
+Faster processing 
+
+Supports more data types 
+
+Used internally 
+
+ 
+
+IL IN MONGODB: 
+
+What is MongoDB Atlas? 
+
+Cloud database service 
+
+Fully managed 
+
+Secure and scalable 
+
+Easy deployment 
+
+ 
+
+ 
+
+BL IN REDUX: 
+
+ 
+
+What is Action Creator? 
+
+Function that returns action 
+
+Improves code reuse 
+
+Simplifies dispatching 
+
+Keeps code clean 
+
+ 
+
+IL IN REDUX: 
+
+2.What is combineReducers? 
+
+Combines multiple reducers 
+
+Creates root reducer 
+
+Improves code structure 
+
+Manages large state 
+
+ 
+
+BL IN GIT AND GITHUB: 
+
+1.Git vs GitHub? 
+
+Git is a tool 
+
+GitHub is a service 
+
+Git works locally 
+
+GitHub works online 
+
+ 
+
+IL IN GIT AND GITHUB: 
+
+2.What is staging area? 
+
+Pre-commit area 
+
+Holds selected files 
+
+Uses git add 
+
+Improves control 
+
+ 
+
+ 
+
+BL IN API: 
+
+Common HTTP status codes? 
+
+200 – OK 
+
+201 – Created 
+
+400 – Bad request 
+
+401 – Unauthorized 
+
+IL IN API: 
+
+What is fetch()? 
+
+Built-in JavaScript API 
+
+Used to make HTTP requests 
+
+Works asynchronously (Promise-based) 
+
+Commonly used with REST APIs 
+
+ 
+
+ 
+
+SET – 9  
+
+ 
+
+BL IN HTML 
+
+1.What is list? 
+
+Groups related items 
+
+Ordered or unordered 
+
+Uses <li> 
+
+Improves readability 
+
+IL IN HTML 
+
+2.Unordered list? 
+
+Bulleted list 
+
+Uses <ul> 
+
+No order 
+
+Contains <li> 
+
+ 
+
+BL IN CSS 
+
+1.External CSS? 
+
+Separate .css file 
+
+Linked using <link> 
+
+Reusable code 
+
+Best practice 
+
+ 
+
+IL IN CSS 
+
+2.Universal selector? 
+
+Selects all elements 
+
+Uses * 
+
+Applies global styles 
+
+Low specificity 
+
+ 
+
+BL IN JS   
+
+slice() 
+
+Used to copy part of an array 
+
+Does not change original array 
+
+Returns a new array 
+
+Takes start & end index 
+
+End index is not included 
+
+ 
+
+ 
+
+let arr = [1, 2, 3, 4, 5]; 
+
+let result = arr.slice(1, 4); 
+
+console.log(result); // [2, 3, 4] 
+
+console.log(arr);    // [1, 2, 3, 4, 5] 
+
+IL IN JS 
+
+2.splice() 
+
+Used to add or remove elements 
+
+Changes original array 
+
+Can add, remove, or replace 
+
+Takes start index & count 
+
+Returns removed elements 
+
+Example  
+
+let arr = [1, 2, 3, 4, 5]; 
+
+arr.splice(2, 2); 
+
+console.log(arr); // [1, 2, 5] 
+
+ 
+
+ 
+
+ 
+
+ 
+
+BL IN REACT 
+
+1.What is prop drilling? 
+
+Passing props deeply 
+
+Causes complexity 
+
+Hard to maintain 
+
+Solved by context 
+
+  
+
+IL IN REACT 
+
+2.What is map() in React? 
+
+Iterates over arrays – It goes through each element of an array. 
+
+Returns a new array – You can transform each element into JSX for rendering. 
+
+Used for rendering lists – Dynamically create multiple components or HTML elements. 
+
+Requires key prop – Each item needs a unique key to avoid re-render issues. 
+
+ 
+
+BL IN NODE JS 
+
+1.What is dotenv? 
+
+Loads env variables 
+
+Reads .env file 
+
+Keeps secrets secure 
+
+Example: DB credentials 
+
+ 
+
+IL IN NODE JS   
+
+2. What is async/await? 
+
+Cleaner async code 
+
+Based on promises 
+
+Synchronous style 
+
+Avoids nested callbacks 
+
+ 
+
+BL IN EXPRESS JS 
+
+What is app.put() do in express js ? 
+
+Updates resource 
+
+Full replacement 
+
+Uses URL params or body 
+
+Example: /update/:id 
+
+ 
+
+ 
+
+IL IN EXPRESS JS   
+
+2. What is app.delete()? 
+
+Deletes resource 
+
+Uses ID or query 
+
+Response with success/fail 
+
+Example: /delete/:id 
+
+ 
+
+BL IN MONGODB 
+
+1.What is difference between SQL & MongoDB? 
+
+SQL: relational, tables, schema 
+
+MongoDB: document-oriented, JSON 
+
+SQL: joins, MongoDB: embedding & referencing 
+
+MongoDB flexible schema 
+
+ 
+
+IL IN MONGODB 
+
+2. How to find data? 
+
+find() returns cursor 
+
+findOne() returns single doc 
+
+Supports query filters 
+
+Example: db.users.find({age:25}) 
+
+ 
+
+ 
+
+BL IN REDUX   
+
+1. What is difference between Redux & Context API? 
+
+Redux: central store, middleware, devtools 
+
+Context: simple global state 
+
+Redux better for complex apps 
+
+Context good for small apps 
+
+ 
+
+ 
+
+IL IN REDUX 
+
+2.What is useDispatch? 
+
+React-Redux hook 
+
+Returns dispatch function 
+
+Replaces mapDispatchToProps 
+
+Example: const dispatch = useDispatch() 
+
+ 
+
+BL IN DEPLOYMENT  
+
+1.What is Vercel? 
+
+Cloud platform for deployment – Vercel is a hosting platform mainly for front-end frameworks like React, Next.js, Vue, Angular. 
+
+Serverless functions – Supports backend APIs using serverless functions (Node.js, Go, Python). 
+
+Automatic deployments – Connects with GitHub, GitLab, Bitbucket for CI/CD, and deploys automatically on push. 
+
+Fast global CDN – Distributes your site worldwide for fast loading & performance. 
+
+ 
+
+BL IN DEPLOYMENT 
+
+What is Render? 
+
+Cloud platform for full-stack apps – Render allows you to deploy websites, APIs, databases, and backend apps. 
+
+Supports multiple languages – Works with Node.js, Python, Ruby, Go, Docker, and static sites. 
+
+Automatic deployments – Connects with GitHub & GitLab for CI/CD; deploys automatically on code push. 
+
+Managed infrastructure – Provides SSL, custom domains, cron jobs, databases, and server management. 
+
+ 
+
+ 
+
+ 
+
+BL IN GIT AND GITHUB 
+
+1.What is git commit -m? 
+
+Commit in Git – git commit saves changes from the staging area to the local repository. 
+
+-m flag – Allows you to add a commit message inline without opening the editor. 
+
+Describes changes – The message should explain what changes were made for future reference. 
+
+Keeps history organized – Each commit acts as a snapshot of the project at that point. 
+
+ 
+
+ 
+
+IL IN GIT AND GITHUB 
+
+What is git pull? 
+
+Fetches changes – Downloads the latest commits from a remote repository (like GitHub) to your local repo. 
+
+Merges automatically – Combines remote changes with your local branch in one step. 
+
+Keeps local repo updated – Ensures you have the most recent version of the project. 
+
+Shortcut for fetch + merge – Equivalent to running git fetch followed by git merge. 
+
+ 
+
+ 
+
+ 
+
+SET – 10 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
