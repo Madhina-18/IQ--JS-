@@ -226,5 +226,26 @@ if (word === rev) {
 Palindrome
 ```
 
+### **11. Arrow Function**
+
+**Question:**
+Write a JavaScript program using an **arrow function** to add two numbers.
+
+**Answer:**
+
+```javascript
+const add = (a, b) => a + b;
+console.log(add(5, 3));
+```
+
+**Output:**
+
+```
+8
+```
+
+
+
+
 
 
