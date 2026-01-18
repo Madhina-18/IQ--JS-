@@ -1,6 +1,4 @@
-Sure Madina 👍
-Here are **all the questions with code and output** (simple & student-friendly):
-
+Coding Questions 
 ---
 
 ### **1. Math.random() (1 to 10)**
