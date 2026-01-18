@@ -245,7 +245,79 @@ console.log(add(5, 3));
 ```
 
 
+### **12. Callback Function**
 
+**Answer:**
+
+```javascript
+function greet(name) {
+  console.log("Hello " + name);
+}
+
+function processUser(callback) {
+  let userName = "Ram";
+  callback(userName);
+}
+
+processUser(greet);
+```
+
+**Output:**
+
+```
+Hello Ram
+```
+
+### **13. Promise**
+
+**Question:**
+Write a simple JavaScript program using a **Promise** that resolves after 2 seconds.
+
+**Answer:**
+
+```javascript
+let myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promise Resolved!");
+  }, 2000);
+});
+
+myPromise.then((message) => {
+  console.log(message);
+});
+```
+
+**Output (after 2 seconds):**
+
+```
+Promise Resolved!
+```
+
+### **14. Async & Await**
+
+**Question:**
+Write a JavaScript program using **async/await** to wait for a promise to resolve.
+
+**Answer:**
+
+```javascript
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(() => resolve("Done!"), ms));
+}
+
+async function asyncFunction() {
+  let result = await delay(2000);
+  console.log(result);
+}
+
+asyncFunction();
+```
+
+**Output (after 2 seconds):**
+
+```
+Done!
+```
 
 
 
