@@ -207,4 +207,26 @@ olleh
 
 ---
 
+10 . Write a simple JavaScript program to check whether a given string is a palindrome or not.
+
+**Answer:**
+
+```javascript
+let word = "madam";
+let rev = word.split("").reverse().join("");
+
+if (word === rev) {
+  console.log("Palindrome");
+} else {
+  console.log("Not a Palindrome");
+}
+```
+
+**Output:**
+
+```
+Palindrome
+```
+
+
 
