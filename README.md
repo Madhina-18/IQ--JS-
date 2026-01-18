@@ -319,5 +319,26 @@ asyncFunction();
 Done!
 ```
 
+### **15. Template Literals**
+
+**Question:**
+Write a JavaScript program using **template literals** to display a message with a name and age.
+
+**Answer:**
+
+```javascript
+let name = "Ram";
+let age = 21;
+
+let message = `My name is ${name} and I am ${age} years old.`;
+console.log(message);
+```
+
+**Output:**
+
+```
+My name is Ram and I am 21 years old.
+```
+
 
 
