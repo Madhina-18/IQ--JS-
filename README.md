@@ -340,5 +340,31 @@ console.log(message);
 My name is Ram and I am 21 years old.
 ```
 
+### **16. Spread & Rest Operator**
+
+**Question:**
+Write a JavaScript program to demonstrate the **spread** and **rest** operators.
+
+**Answer:**
+
+```javascript
+// Spread Operator
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1, 4, 5];
+console.log("Spread:", arr2);
+
+// Rest Operator
+function sum(...numbers) {
+  return numbers.reduce((total, num) => total + num, 0);
+}
+console.log("Rest:", sum(1, 2, 3, 4));
+```
+
+**Output:**
+
+```
+Spread: [1, 2, 3, 4, 5]
+Rest: 10
+```
 
 
