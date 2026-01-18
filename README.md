@@ -6,7 +6,7 @@ Here are **all the questions with code and output** (simple & student-friendly):
 ### **1. Math.random() (1 to 10)**
 
 **Question:**
-Write a JavaScript program to generate a random number between 1 and 10.
+Write a JavaScript program to generate a random number between 1 and 10. 
 
 **Code:**
 
