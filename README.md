@@ -1,69 +1,77 @@
 Sure Madina 👍
-Here are **all the questions with answers** in **simple JavaScript**, clearly explained for students:
+Here are **all the questions with code and output** (simple & student-friendly):
 
 ---
 
 ### **1. Math.random() (1 to 10)**
 
 **Question:**
-Write a JavaScript program using the `Math.random()` function to generate a random number between 1 and 10.
+Write a JavaScript program to generate a random number between 1 and 10.
 
-**Answer:**
+**Code:**
 
 ```javascript
-let randomNum = Math.floor(Math.random() * 10) + 1;
-console.log(randomNum);
+let num = Math.floor(Math.random() * 10) + 1;
+console.log(num);
 ```
 
-**Explanation:**
-`Math.random()` gives a value between 0 and 1.
-We multiply by 10 and add 1 to get numbers from 1 to 10.
+**Output:**
+
+```
+Any number between 1 and 10
+```
 
 ---
 
 ### **2. Return Keyword**
 
 **Question:**
-Write a JavaScript function that uses the `return` keyword to return a value.
+Write a JavaScript function that uses the `return` keyword.
 
-**Answer:**
+**Code:**
 
 ```javascript
-function getNumber() {
-  return 5;
+function getValue() {
+  return 10;
 }
-console.log(getNumber());
+console.log(getValue());
 ```
 
-**Explanation:**
-The `return` keyword sends the value back from the function.
+**Output:**
+
+```
+10
+```
 
 ---
 
 ### **3. Ternary Operator**
 
 **Question:**
-Write a JavaScript program that uses the ternary operator to check whether a number is even or odd.
+Write a JavaScript program using the ternary operator to check even or odd.
 
-**Answer:**
+**Code:**
 
 ```javascript
-let num = 4;
+let num = 5;
 let result = (num % 2 === 0) ? "Even" : "Odd";
 console.log(result);
 ```
 
-**Explanation:**
-Ternary operator is a short form of if–else.
+**Output:**
+
+```
+Odd
+```
 
 ---
 
 ### **4. Loop in JavaScript**
 
 **Question:**
-Write a JavaScript program using a loop to print numbers from 1 to 10.
+Write a JavaScript program to print numbers from 1 to 10 using a loop.
 
-**Answer:**
+**Code:**
 
 ```javascript
 for (let i = 1; i <= 10; i++) {
@@ -71,17 +79,29 @@ for (let i = 1; i <= 10; i++) {
 }
 ```
 
-**Explanation:**
-The loop repeats the code until the condition becomes false.
+**Output:**
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
 
 ---
 
 ### **5. push() Method**
 
 **Question:**
-Write a JavaScript program that uses the `push()` method to add an element to an array.
+Write a JavaScript program using `push()` to add an element to an array.
 
-**Answer:**
+**Code:**
 
 ```javascript
 let fruits = ["Apple", "Banana"];
@@ -89,35 +109,41 @@ fruits.push("Orange");
 console.log(fruits);
 ```
 
-**Explanation:**
-`push()` adds a new element at the end of an array.
+**Output:**
+
+```
+["Apple", "Banana", "Orange"]
+```
 
 ---
 
 ### **6. splice() Method**
 
 **Question:**
-Write a JavaScript program that uses the `splice()` method to remove an element from an array.
+Write a JavaScript program using `splice()` to remove an element.
 
-**Answer:**
+**Code:**
 
 ```javascript
-let numbers = [1, 2, 3, 4];
-numbers.splice(2, 1);
-console.log(numbers);
+let nums = [1, 2, 3, 4];
+nums.splice(1, 1);
+console.log(nums);
 ```
 
-**Explanation:**
-`splice(index, count)` removes elements from an array.
+**Output:**
+
+```
+[1, 3, 4]
+```
 
 ---
 
 ### **7. Object Literals**
 
 **Question:**
-Create a JavaScript object literal to store details like name, age, and role.
+Create an object literal with name, age, and role.
 
-**Answer:**
+**Code:**
 
 ```javascript
 let student = {
@@ -128,31 +154,57 @@ let student = {
 console.log(student);
 ```
 
-**Explanation:**
-Object literals store data in key–value pairs.
+**Output:**
+
+```
+{name: "Ram", age: 21, role: "Developer"}
+```
 
 ---
 
 ### **8. JavaScript Event**
 
 **Question:**
-Write a JavaScript program that uses an event to perform an action when a button is clicked.
+Write a JavaScript program using a click event.
 
-**Answer:**
+**Code:**
 
 ```html
-<button onclick="showMsg()">Click Me</button>
-
+<button onclick="showMsg()">Click</button>
 <script>
   function showMsg() {
-    alert("Button clicked!");
+    alert("Button clicked");
   }
 </script>
 ```
 
-**Explanation:**
-An event runs code when a user performs an action like clicking.
+**Output:**
+
+```
+Button clicked (alert)
+```
 
 ---
 
-ns** for your students.
+### **9. Reverse a String**
+
+**Question:**
+Write a JavaScript program to reverse a string.
+
+**Code:**
+
+```javascript
+let str = "hello";
+let rev = str.split("").reverse().join("");
+console.log(rev);
+```
+
+**Output:**
+
+```
+olleh
+```
+
+---
+
+
